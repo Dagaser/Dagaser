@@ -4,7 +4,7 @@
 
 ## 💻 Software Developer | 🌟 [Your specialty] | 🌍 [Your location]
 
-![Banner](https://raw.githubusercontent.com/username/repository/master/banner.jpg)
+![Developer Profile Banner](https://raw.githubusercontent.com/dagaser/dagaser/main/banner.svg)
 
 ## 👨‍💻 About Me
 
