@@ -1,8 +1,6 @@
-## Hi there 👋
+# 👋 Hi, I'm DANIEL GARCIA.
 
-# 👋 Hi, I'm [Your Name]
-
-## 💻 Software Developer | 🌟 [Your specialty] | 🌍 [Your location]
+## 💻 Software Developer | 🌟 Backend Developer | 🌍 Colombia
 
 ![Developer Profile Banner](https://raw.githubusercontent.com/dagaser/dagaser/main/banner.svg)
 
@@ -12,8 +10,6 @@ I'm a passionate software developer with experience in [Your areas of expertise]
 
 ## 🛠️ Technologies & Tools
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
@@ -57,4 +53,4 @@ Brief description of the project. What technologies you used and what your role 
 
 ---
 
-⭐️ From [YourUsername](https://github.com/YourUsername)
+⭐️ From Dagaser (https://github.com/Dagaser)
