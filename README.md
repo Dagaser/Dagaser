@@ -2,7 +2,7 @@
 
 ## 💻 Software Developer | 🌟 Backend Developer | 🌍 Colombia
 
-![Developer Profile Banner](https://raw.githubusercontent.com/Dagaser/Dagaser/9edc291b921f38dca4ca6e9cf027e7531036885e/banner.svg)
+![Developer Profile Banner](https://raw.githubusercontent.com/Dagaser/Dagaser/7e0b51c081553b18ee9d4dd3deb9c1f58321854b/banner.svg)
 
 ## 👨‍💻 About Me
 
