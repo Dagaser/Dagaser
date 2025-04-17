@@ -3,25 +3,13 @@
   <defs>
     <!-- Estilo común para textos con tipografía antigua de máquina de escribir -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-      .typewriter { font-family: 'Special Elite', 'American Typewriter', 'Courier', monospace; }
+      .typewriter { font-family: monospace; font-variant-ligatures: none; }
       .binary { fill: #ffffff80; font-size: 34px; }
       .python { fill: #ffffff40; font-size: 16px; }
       .info { fill: #306998; }
       .white-text { fill: white; }
     </style>
     
-    <!-- Animación común para deslizamiento -->
-    <animate id="slideAnim" 
-      attributeName="x" 
-      values="20;780;780;20;20" 
-      dur="10s" 
-      repeatCount="indefinite" 
-      begin="0s" 
-      keyTimes="0;0.3;0.7;0.9;1" 
-      keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" 
-      calcMode="spline" />
-      
     <!-- Binary code pattern -->
     <pattern id="binaryPattern" x="0" y="0" width="600" height="210" patternUnits="userSpaceOnUse">
       <g class="typewriter binary">
@@ -59,25 +47,13 @@
         <text x="300" y="205">    return jsonify(process_data(data))</text>
       </g>
     </pattern>
-  </defs>
-  
-  <!-- Background yellow card (static) -->
-  <rect x="20" y="20" width="760" height="210" fill="#FFD43B" rx="5" ry="5" />
-  
-  <!-- Personal Information on yellow background -->
-  <g class="typewriter info">
-    <text x="40" y="120" font-size="36" font-weight="bold">DANIEL GARCIA SERNA.</text>
-    <text x="40" y="185" font-size="14">Python | FastAPI | Django | SQL | Docker</text>
-  </g>
-  
-  <!-- Blue sliding card group -->
-  <g id="slidingCard">
-    <!-- Add clipPath to keep card within bounds -->
+    
+    <!-- Clip path para límites -->
     <clipPath id="cardBounds">
       <rect x="20" y="20" width="760" height="210" rx="5" ry="5" />
     </clipPath>
     
-    <!-- Código para asegurar que la tarjeta azul tenga transparencia -->
+    <!-- Máscara para el efecto de deslizamiento -->
     <mask id="blueMask">
       <rect x="0" y="0" width="100%" height="100%" fill="white"/>
       <rect id="maskRect" x="20" y="20" width="380" height="210" fill="black">
@@ -93,20 +69,31 @@
         />
       </rect>
     </mask>
-    
+  </defs>
+  
+  <!-- Background yellow card (static) -->
+  <rect x="20" y="20" width="760" height="210" fill="#FFD43B" rx="5" ry="5" />
+  
+  <!-- Personal Information on yellow background -->
+  <g class="typewriter info">
+    <text x="40" y="120" font-size="36" font-weight="bold">DANIEL GARCIA SERNA.</text>
+    <text x="40" y="155" font-size="20">Backend Developer</text>
+    <text x="40" y="185" font-size="14">Python | FastAPI | Django | SQL | Docker</text>
+  </g>
+  
+  <!-- Blue sliding card group -->
+  <g id="slidingCard">
     <g clip-path="url(#cardBounds)">
       <!-- Blue background with animation -->
-      <rect x="20" y="20" width="760" height="210" fill="#306998" rx="5" ry="5" mask="url(#blueMask)">
-      </rect>
+      <rect x="20" y="20" width="760" height="210" fill="#306998" rx="5" ry="5" mask="url(#blueMask)" />
       
       <!-- Code patterns overlay with animations -->
-      <rect x="20" y="20" width="760" height="210" fill="url(#binaryPattern)" mask="url(#blueMask)">
-      </rect>
-      <rect x="20" y="20" width="760" height="210" fill="url(#pythonPattern)" mask="url(#blueMask)">
-      </rect>
+      <rect x="20" y="20" width="760" height="210" fill="url(#binaryPattern)" mask="url(#blueMask)" />
+      <rect x="20" y="20" width="760" height="210" fill="url(#pythonPattern)" mask="url(#blueMask)" />
       
       <!-- Title on blue card that slides -->
-      <text x="50" y="130" class="typewriter white-text" font-size="34" font-weight="bold" text-anchor="left">Backend Developer
+      <text x="50" y="130" class="typewriter white-text" font-size="34" font-weight="bold" text-anchor="left">
+        Backend Developer
         <animate 
           attributeName="x" 
           values="50;450;450;50;50" 
