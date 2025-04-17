@@ -66,10 +66,8 @@
   
   <!-- Personal Information on yellow background -->
   <g class="typewriter info">
-    <text x="40" y="120" font-size="36" font-weight="bold">DANIEL GARCIA SERNA</text>
-    <text x="40" y="155" font-size="20">Backend Developer</text>
+    <text x="40" y="120" font-size="36" font-weight="bold">DANIEL GARCIA SERNA.</text>
     <text x="40" y="185" font-size="14">Python | FastAPI | Django | SQL | Docker</text>
-    <text x="40" y="215" font-size="14">github.com/dagaser</text>
   </g>
   
   <!-- Blue sliding card group -->
